@@ -31,6 +31,7 @@ class V1RequestBase(object):
     cmd: str = None
     cookies: list = None
     maxTimeout: int = None
+    waitToLoadTime: int = None
     proxy: dict = None
     session: str = None
     session_ttl_minutes: int = None
