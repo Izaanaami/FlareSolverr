@@ -51,7 +51,7 @@ USER flaresolverr
 RUN mkdir -p "/app/.config/chromium/Crash Reports/pending"
 
 COPY src .
-COPY package.json .
+COPY package.json ../
 
 EXPOSE 8191
 EXPOSE 8192
